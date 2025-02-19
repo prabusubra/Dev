@@ -1,8 +1,9 @@
 # Stream Operators:-
 
   - ## teeing():-
-      ```
-      public class CC123 {
+
+```
+  public class CC123 {
     public static void main(String[] args) {
 
         List<EmployeeA> emp = List.of(new EmployeeA(1, "AAA", "HR", 100),
@@ -43,8 +44,9 @@
 
     }
 }
-
-
+```
+---
+```
 @Data
 @AllArgsConstructor
 class EmployeeA {
@@ -53,5 +55,5 @@ class EmployeeA {
     private final String dept;
     private final int salary;
 }
-
-      ```
+```
+---
