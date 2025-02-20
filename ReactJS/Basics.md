@@ -20,5 +20,17 @@
 
   - **useDebugValue** - ***used for debugging purpose***
 
+
+## React Custom Hooks:-
+
+  - It encapsulate logic using React hooks (like ***useState, useEffect***).
+
+  - Custom hooks should start with ***use*** (Example ***useFetch, useAuth***).
+
+  - It returns values(like data, error, function).
+
+## Axios:-
+
+  - Interceptors
   - 
       
