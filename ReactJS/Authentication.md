@@ -9,9 +9,16 @@
 - Identity Provider (IdP) → Manages authentication, issues tokens.
 
  ## Secure Authentication Flow
+ 
   ### User Login
+  
   - React.js app redirects the user to the IdP login page.
   - IdP authenticates the user and issues a JWT access token + optional refresh token.
-  ### Token Storage (Frontend)
-  - ***Best Practice:*** Store access token only in memory (Redux store, React Context).
+    
+  ### Token Storage (Frontend):-
+  
+  - ***Best Practice:*** Store access token only **in memory** (Redux store, React Context).
+
+  - ⛔ Don't Store access token in ***local storage or cookie***
+    
   - ***Refresh token handling:*** Use HTTP-only, Secure SameSite cookies.
