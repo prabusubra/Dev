@@ -13,3 +13,35 @@
 - **useDefferedValue()** ➡️ Allows a UI update to be deferred when higher-priority work is pending.
 
 - **Suspense** ➡️ Helps in lazy-loading and streaming UI updates.
+
+## How to enable react concurrent mode?
+
+1. Upgrade to React 18+
+
+2. Use createRoot() Instead of ReactDOM.render()
+
+   ### Before (React 17 - Legacy Rendering)
+     ```
+      import React from "react";
+      import ReactDOM from "react-dom";
+      import App from "./App";
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+
+     ```
+
+   ### After (React 18 - Concurrent Rendering Enabled)
+
+     ```
+      import React from "react";
+      import ReactDOM from "react-dom/client";
+      import App from "./App";
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+
+     ```
+
+## Note:-
+   ***✅ createRoot() enables concurrent rendering automatically.*** \
+   ***❌ If you still use ReactDOM.render(), concurrent features will not work.***
