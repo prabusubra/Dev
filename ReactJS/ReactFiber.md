@@ -63,3 +63,23 @@
 | Error Handling	| Crashes Entire App	| Error Boundaries (Handles Errors Gracefully) |
 | Fragments |	Extra <div> Wrappers Needed	| No Extra Wrappers (<></>) |
 Portals |	Not Supported	| Supported (ReactDOM.createPortal) |
+
+## Improvements in React17
+
+- **Improved Event Delegation:**
+
+  - 🌲 Before React 17: React attached event listeners to document.
+    
+  - 💽 React 17 with Fiber: Event listeners are now attached at the root container, improving compatibility with third-party libraries.
+
+    ✅ Use Case: Better integration with non-React apps and micro frontends.
+
+- **Incremental Adoption:**
+
+  - 🥇 ***Mainly For Smooth upgrades***
+
+  - React 17 introduced incremental adoption, meaning different parts of an app can run on different React versions.
+
+  - React Fiber makes this possible by allowing multiple versions of React to coexist without conflicts.
+  
+    ✅ Use Case: Migrate old parts of your app to React 17 without rewriting everything at once.
