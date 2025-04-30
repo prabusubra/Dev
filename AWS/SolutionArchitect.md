@@ -12,3 +12,11 @@
 ## S3:-
   - Regional service, availabe to all the Availablity Zone(AZ) on specified region.
   - Stores the data redunctantly accross AZs except **S3 Express One Zone**.
+  - 
+
+## EC2:-
+  - Regional Service
+  - EC2 Global View to see all the running instances.
+
+## RDS:-
+  - 
