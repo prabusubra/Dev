@@ -11,3 +11,8 @@
 | @PreRemove     | Before DELETE       |
 | @PostLoad      | After fetching entity |
 
+## Inheritance Strategies
+ - Single Table (Default)
+ - Joined
+ - TABLE_PER_CLASS
+ - MappedSuperclass
