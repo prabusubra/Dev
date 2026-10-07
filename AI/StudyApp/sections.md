@@ -202,3 +202,14 @@ Create **Edit Study** the same way with an `editStudy` function (parameters: `st
 | sectionCodes | Checkboxes, **default = `study.selectedSections`** |
 
 The defaults make the form open **pre-filled** with the current values. In Workshop, add an "Edit" button that runs **Edit Study** with `study` = `selectedStudy`.
+
+
+sectionId,studyNumber,title,parentSectionId,level,sortOrder,generate,includeText,includeTables,tablesApplicable
+S001-COVER,S001,Cover page,,1,0,true,true,false,false
+S001-1.0,S001,1.0 Report Summary,,1,1,true,true,true,true
+S001-1.1,S001,1.1 Background,S001-1.0,2,1,true,true,false,false
+S001-2.0,S001,2.0 Fact-finding,,1,2,true,true,false,false
+S001-3.0,S001,3.0 Cost Analysis,,1,3,true,true,true,true
+S001-4.0,S001,4.0 Profit Analysis,,1,4,true,true,true,true
+S001-5.0,S001,5.0 Price Analysis,,1,5,true,true,true,true
+S001-6.0,S001,6.0 Analysis Conclusion,,1,6,true,true,false,false
