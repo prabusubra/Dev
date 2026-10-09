@@ -54,6 +54,15 @@ If the section list is permanently fixed and very small, individual Boolean prop
 
 Start by locating the existing **Study Analysis** object type in Ontology Manager. Do not create a duplicate if it already exists.
 
+# Study Analysis dataset
+
+| Study Number | Has Started CAR | Is Qualified for CAR | Qualification Reason | Generation Selection JSON | Generation Selection Updated At | Generation Selection Updated By | CAR Generation Status | CAR Generation Request ID |
+|---|---|---|---|---|---|---|---|---|
+| STUDY-2026-001 | false | false |  | `{ "sections": [] }` |  |  | Not Started |  |
+| STUDY-2026-002 | true | true | Meets the criteria for CAR generation. | `{ "sections": [{ "sectionKey": "executiveSummary", "generate": true, "text": true, "tables": false }, { "sectionKey": "materials", "generate": true, "text": true, "tables": true }] }` | 2026-10-09T12:30:00Z | user@example.com | Completed | car-gen-8f3c2a1b |
+| STUDY-2026-003 | true | false | Study does not meet CAR qualification criteria. | `{ "sections": [] }` | 2026-10-09T13:15:00Z | user@example.com | Not Started |  |
+
+
 Verify that it has a stable identifier and the properties needed for this workflow. Add the following property if it does not already exist:
 
 | Property | Type | Purpose |
