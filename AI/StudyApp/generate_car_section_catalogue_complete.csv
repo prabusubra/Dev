@@ -1,0 +1,29 @@
+﻿sectionKey,parentSectionKey,parentSectionName,title,displayOrder,sectionType,supportsText,supportsTables,showGenerateToggle,active,templateKey
+COVER,,,Cover page,0,CONTENT,True,False,True,True,COVER_PAGE
+1.0,,,Report Summary,10,GROUP,True,True,True,True,REPORT_SUMMARY
+1.1,1.0,Report Summary,Summary by CLIN/Total Price,10,CONTENT,False,True,False,True,SUMMARY_CLIN_TOTAL_PRICE
+1.2,1.0,Report Summary,Description of Proposed Effort,20,CONTENT,True,False,False,True,PROPOSED_EFFORT
+1.3,1.0,Report Summary,Background Information,30,CONTENT,True,False,False,True,BACKGROUND_INFORMATION
+2.0,,,Fact-finding,20,GROUP,True,False,True,True,FACT_FINDING
+2.1,2.0,Fact-finding,Date and Location,10,CONTENT,True,False,False,True,DATE_LOCATION
+2.2,2.0,Fact-finding,Fact-Finding Participants,20,CONTENT,True,False,False,True,FACT_FINDING_PARTICIPANTS
+2.3,2.0,Fact-finding,Data Provided,30,CONTENT,True,False,False,True,DATA_PROVIDED
+2.4,2.0,Fact-finding,CAS and Accounting System Adequacy,40,CONTENT,True,False,False,True,CAS_ACCOUNTING_SYSTEM_ADEQUACY
+2.5,2.0,Fact-finding,Technical Analysis,50,CONTENT,True,False,False,True,TECHNICAL_ANALYSIS
+3.0,,,Cost Analysis,30,GROUP,True,True,True,True,COST_ANALYSIS
+3.1,3.0,Cost Analysis,Summary by Cost Element,10,CONTENT,True,True,False,True,SUMMARY_COST_ELEMENT
+3.2,3.0,Cost Analysis,Rates and Factors,20,CONTENT,True,True,False,True,RATES_AND_FACTORS
+3.3,3.0,Cost Analysis,Materials,30,GROUP,True,True,False,True,MATERIALS
+3.3.1,3.3,Materials,Direct Material,10,CONTENT,True,True,False,True,DIRECT_MATERIAL
+3.3.2,3.3,Materials,Material Burdens,20,CONTENT,True,True,False,True,MATERIAL_BURDENS
+3.3.3,3.3,Materials,Material Escalation,30,CONTENT,True,True,False,True,MATERIAL_ESCALATION
+3.3_MATERIALS_CUSTOM_ELEMENTS,3.3,Materials,Custom Elements,40,CONTENT,True,True,False,True,MATERIALS_CUSTOM_ELEMENTS
+3.4,3.0,Cost Analysis,Labor,40,GROUP,True,True,False,True,LABOR
+3.4.1,3.4,Labor,Engineering Labor,10,CONTENT,True,True,False,True,ENGINEERING_LABOR
+3.4.2,3.4,Labor,Manufacturing Labor,20,CONTENT,True,True,False,True,MANUFACTURING_LABOR
+3.4.3,3.4,Labor,Other Labor,30,CONTENT,True,True,False,True,OTHER_LABOR
+3.4_LABOR_CUSTOM_ELEMENTS,3.4,Labor,Custom Elements,40,CONTENT,True,True,False,True,LABOR_CUSTOM_ELEMENTS
+3.5,3.0,Cost Analysis,Other Direct Costs (ODC),50,CONTENT,True,True,False,True,OTHER_DIRECT_COSTS_ODC
+4.0,,,Profit Analysis,40,CONTENT,True,True,True,True,PROFIT_ANALYSIS
+5.0,,,Price Analysis,50,CONTENT,True,True,True,True,PRICE_ANALYSIS
+6.0,,,Analysis Conclusion,60,CONTENT,True,False,True,True,ANALYSIS_CONCLUSION
